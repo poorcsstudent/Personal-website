@@ -1,8 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffrey Place | AI & Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">JP</div>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-    <html>
-    <body>
-    <p>Computer Science graduate focused on AI security, threat intelligence, and applied machine learning.</p>
-    <p>I am a Computer Science graduate from Missouri University of Science and Technology.</p>
-    </body>
-    </html>
-    
+    <section class="hero-content">
+      <p class="eyebrow">Computer Science • AI • Cybersecurity</p>
+      <h1>Jeffrey Edward Place Jr.</h1>
+      <p class="subtitle">
+        Missouri S&T Computer Science Graduate focused on AI security, threat intelligence,
+        database systems, and applied machine learning.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn secondary" href="assets/Jeffrey_Place_Resume.pdf" target="_blank">Download Resume</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <h2>About Me</h2>
+      <p>
+        I am a Computer Science Graduate from Missouri University of Science and Technology
+        with interests in cybersecurity, artificial intelligence, database systems, and
+        AI-assisted threat analysis. My work includes AI-guided applications, model
+        benchmarking, security research, and machine learning evaluation.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="card">
+          <div class="tag">AI / Android</div>
+          <h3>AI-Guided Campus Tour System</h3>
+          <p>
+            Android application designed for Meta smart glasses that uses AI-powered
+            image understanding and contextual narration for campus tours.
+          </p>
+          <ul>
+            <li>Kotlin + Jetpack Compose interface</li>
+            <li>RAG-style contextual response workflow</li>
+            <li>Wearable AI interaction design</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="tag">Cybersecurity / AI</div>
+          <h3>Threat Intelligence in the Era of Generative AI</h3>
+          <p>
+            Research focused on prompt injection, natural language vulnerabilities,
+            agentic systems, and defensive workflows for AI-enabled threats.
+          </p>
+          <ul>
+            <li>AI security and adversarial prompting</li>
+            <li>Threat intelligence research</li>
+            <li>LLM attack surface analysis</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="tag">Machine Learning</div>
+          <h3>CineStar Recommendation & Classification System</h3>
+          <p>
+            Machine learning project comparing recommendation and classification
+            models using movie metadata and director-based patterns.
+          </p>
+          <ul>
+            <li>KNN, Naive Bayes, and SVM models</li>
+            <li>Feature evaluation and dataset cleanup</li>
+            <li>Classification and recommendation analysis</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <div class="tag">LLM Evaluation</div>
+          <h3>DBMS Vision Model Evaluation</h3>
+          <p>
+            Benchmarked multiple AI models on database-management question answering
+            tasks and evaluated correctness, reasoning, and clarity.
+          </p>
+          <ul>
+            <li>800+ model answer evaluations</li>
+            <li>Comparative model performance analysis</li>
+            <li>Presentation-ready result summaries</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section split">
+      <div>
+        <p class="eyebrow">Toolkit</p>
+        <h2>Technical Skills</h2>
+        <p>
+          I work across AI, security, data, and software development environments.
+        </p>
+      </div>
+
+      <div class="skills-list">
+        <div><strong>Languages:</strong> Python, C++, Java, Kotlin, SQL, Bash, Assembly</div>
+        <div><strong>AI/Data:</strong> PyTorch, Scikit-learn, NLP, RAG Pipelines, Model Evaluation</div>
+        <div><strong>Security:</strong> Wireshark, Nmap, Burp Suite, Threat Intelligence, Packet Analysis</div>
+        <div><strong>Development:</strong> Git, Linux, Docker/Podman, REST APIs, Jetpack Compose, SQLite</div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="eyebrow">Experience</p>
+      <h2>Cybersecurity & Research</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>OWASP Global AppSec USA Conference</h3>
+          <p class="meta">Washington, D.C.</p>
+          <p>
+            Participated in cybersecurity workshops and industry sessions focused on
+            prompt injection, authentication weaknesses, secure software design,
+            AI security, and modern application security practices.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Threat Intelligence Research Collaboration</h3>
+          <p class="meta">Generative AI Security</p>
+          <p>
+            Explored agentic AI systems, adversarial prompting, security metrics,
+            and AI-assisted defensive analysis workflows.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <p class="eyebrow">Education</p>
+      <h2>Missouri University of Science and Technology</h2>
+      <p>
+        B.S. Computer Science, Expected Graduation: 2026
+      </p>
+      <p>
+        Relevant coursework includes Artificial Intelligence, Natural Language Processing,
+        Data Mining, Computer Security, Database Systems, Operating Systems,
+        Computer Networks, and Algorithms.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s Connect</h2>
+      <p>
+        I am interested in AI security, cybersecurity, software engineering,
+        machine learning, and database-focused roles.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:jepc39@umsystem.edu">jepc39@umsystem.edu</a>
+        <a href="https://github.com/poorcsstudent" target="_blank">GitHub</a>
+        <a href="assets/Jeffrey_Place_Resume.pdf" target="_blank">Resume PDF</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Jeffrey Edward Place Jr. Built as a static portfolio website.</p>
+  </footer>
+</body>
+</html>
